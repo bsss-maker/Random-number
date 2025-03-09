@@ -1,0 +1,33 @@
+<!Doctype html>
+<head>
+<title>random</title>
+<style>
+body,html{
+margin: 0%;
+padding: 0%;
+height: 100%;
+}
+.container(
+background-color: teal;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+background-color: white;
+padding: 60px;
+border-radius: 30px;
+border: 5px solid black;
+} 
+</style>
+</head>
+<body>
+<div class = "container">
+<div class = "box">
+<h2>random game</h2>
+<input type = "text" id = "inputtext" placeholder = "enter number">
+<button>start</button>
+</div>
+</body>
+</html>
